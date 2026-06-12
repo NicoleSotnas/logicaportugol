@@ -1,0 +1,18 @@
+algoritmo "questao05"
+
+
+
+var
+sal, aumento, soma: real
+
+inicio
+escreval("Informe o seu salário: ")
+leia(sal)
+
+aumento <- sal * 15 /100
+escreval("aumento: ",aumento, ".")
+soma <- aumento + sal
+escreval("O salario com aumento é: ",soma,".")
+
+
+fimalgoritmo

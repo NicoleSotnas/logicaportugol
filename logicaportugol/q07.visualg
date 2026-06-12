@@ -1,0 +1,20 @@
+algoritmo "questao07"
+
+var
+
+num1, num2, num3, media: real
+
+inicio
+escreval("Informe o primeiro número: ")
+leia(num1)
+escreval("Informe o seegundo número: ")
+leia(num2)
+escreval("Informe o terceiro número: ")
+leia(num3)
+
+media <- (num1 + num2 + num3) / 3
+
+escreval("A média é: " ,media, ".")
+
+
+fimalgoritmo

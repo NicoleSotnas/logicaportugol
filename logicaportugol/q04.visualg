@@ -1,0 +1,19 @@
+algoritmo "questao04"
+
+var
+num, ant, suc:inteiro
+
+inicio
+
+escreval("Informe um numero: ")
+leia(num)
+
+ant <- num - 1
+escreval("O antecessor de ",num, " é ", ant,".")
+
+suc <- num + 1
+escreval("O sucessor de ",num, " é ",suc, ".")
+
+
+
+fimalgoritmo

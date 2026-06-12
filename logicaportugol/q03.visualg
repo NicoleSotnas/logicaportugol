@@ -1,0 +1,15 @@
+algoritmo "questao03"
+
+var
+  dol, rs: real
+
+inicio
+  escreval("Informe quantos dólares você tem: ")
+  leia(dol)
+
+rs <- dol * 3.80
+  escreval("U$", dol, "= R$" ,rs, ".")
+
+  
+
+fimalgoritmo

@@ -1,0 +1,26 @@
+algoritmo "questao02"
+//Elaborar um programa que pergunte quatro valores inteiros e apresente 2 resultados:
+//a) Resultado de suas adições
+//b) Resultado de suas multiplicações
+var
+num1, num2, num3, num4, soma, multi: inteiro
+
+inicio
+escreval("Informe o primeiro número: ")
+leia(num1)
+escreval("Informe o seegundo número: ")
+leia(num2)
+escreval("Informe o terceiro número: ")
+leia(num3)
+escreval("Informe o quarto número: ")
+leia(num4)
+
+soma <- num1 + num2 + num3 + num4
+
+escreval("O resultado da soma é: ",soma, ".")
+
+multi <- num1 * num2 * num3 * num4
+
+escreval("O resulta da multiplicação é: ",multi, ".")
+
+fimalgoritmo

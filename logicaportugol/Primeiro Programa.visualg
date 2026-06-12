@@ -1,0 +1,17 @@
+algoritmo "Primeiro Programa"
+
+var
+  nome: caractere
+  sobrenome: caractere
+  idade: inteiro
+inicio
+
+  escreval("Digite seu nome: ")
+  leia(nome)
+  escreval("Digite seu sobrenome: ")
+  leia(sobrenome)
+  escreval("Digite sua idade:")
+  leia(idade)
+  escreva("Olá, ", nome, " ", sobrenome, "! Sua idade é ", idade, ".")
+
+fimalgoritmo
