@@ -1,0 +1,15 @@
+algoritmo "questao09"
+
+var
+
+num, resul,: real
+
+inicio
+escreval("Digite um número: ")
+ leia(num)
+
+resul <- raizq(num)
+
+escreva("A raiz quadrada de ", num, " é ", resul)
+
+fimalgoritmo

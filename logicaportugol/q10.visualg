@@ -1,0 +1,22 @@
+algoritmo"questao10"
+
+var 
+valor, tempdias, taxa, prestacao: real
+inicio
+
+escreval("Informe um valor: ")
+leia(valor)
+escreval("valor: ",valor)
+
+escreval("Informe o valor da taxa: ")
+leia(taxa)
+escreval("valor da taxa: ",taxa)
+
+escreval("Informe os dias: ")
+leia(tempdias)
+escreval("dias: ",tempdias)
+
+prestacao <- valor + (valor*(taxa / 100)* tempdias)
+
+escreval("A prestação será: ", prestacao)
+fimalgoritmo

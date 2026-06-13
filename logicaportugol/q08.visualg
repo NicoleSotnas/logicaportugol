@@ -1,0 +1,20 @@
+algoritmo "questão08"
+
+var 
+qtlitros, dist, consumo: real
+inicio
+
+escreval("Informe a distância pecorrida: ")
+leia(dist)
+escreval("distância: ",dist)
+
+escreval("Informe o consumo médio do automovel: ")
+leia(consumo)
+escreval("consumo: ",consumo)
+
+qtlitros <- dist / consumo
+
+escreval("O automóvel gastará ",qtlitros, " litros em uma viagem.")
+
+
+fimalgoritmo
